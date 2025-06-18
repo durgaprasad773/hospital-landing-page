@@ -1,0 +1,77 @@
+.services-section {
+    @apply py-20 bg-gray-50;
+}
+
+.services-container {
+    @apply container-max section-padding;
+}
+
+.services-header {
+    @apply text-center mb-16;
+}
+
+.services-title {
+    @apply text-4xl font-bold text-blue-600 mb-4;
+}
+
+.services-subtitle {
+    @apply text-lg text-gray-600 max-w-2xl mx-auto;
+}
+
+.services-grid {
+    @apply flex gap-4 mx-auto justify-center;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.service-card {
+    @apply bg-gray-50 rounded-2xl p-4 text-center transition-all duration-300 hover:shadow-lg border border-gray-100;
+    flex: 0 0 220px;
+    width: 220px;
+    min-height: 180px;
+}
+
+.service-card.featured {
+    @apply bg-blue-600 text-white shadow-xl;
+}
+
+.service-icon {
+    @apply w-16 h-16 mx-auto mb-4 rounded-2xl bg-white flex items-center justify-center p-3;
+}
+
+.service-card.featured .service-icon {
+    @apply bg-white bg-opacity-20;
+}
+
+.service-icon-img {
+    @apply w-10 h-10 object-contain;
+}
+
+.service-card.featured .service-icon-img {
+    @apply filter brightness-0 invert;
+}
+
+.service-title {
+    @apply text-lg font-semibold mb-3;
+}
+
+.service-card.featured .service-title {
+    @apply text-white;
+}
+
+.service-description {
+    @apply text-gray-600 mb-4 leading-relaxed text-sm;
+}
+
+.service-card.featured .service-description {
+    @apply text-white text-opacity-90;
+}
+
+.service-link {
+    @apply text-white font-bold text-sm hover:text-white transition-colors duration-200 uppercase tracking-wide;
+}
+
+.service-card.featured .service-link {
+    @apply text-white hover:text-white;
+}

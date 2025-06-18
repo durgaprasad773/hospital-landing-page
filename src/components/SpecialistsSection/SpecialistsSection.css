@@ -1,0 +1,47 @@
+.specialists-section {
+    @apply py-20 bg-white;
+}
+
+.specialists-container {
+    @apply container-max section-padding;
+}
+
+.specialists-header {
+    @apply text-center mb-16;
+}
+
+.specialists-title {
+    @apply text-4xl font-bold text-gray-900 mb-4;
+}
+
+.specialists-subtitle {
+    @apply text-lg text-gray-600 max-w-2xl mx-auto;
+}
+
+.specialists-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8;
+}
+
+.specialist-card {
+    @apply bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300;
+}
+
+.specialist-image {
+    @apply relative h-64 bg-gray-100;
+}
+
+.image-placeholder {
+    @apply w-full h-full bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-6xl;
+}
+
+.specialist-info {
+    @apply p-6 text-center;
+}
+
+.specialist-name {
+    @apply text-xl font-semibold text-gray-900 mb-2;
+}
+
+.specialist-specialty {
+    @apply text-gray-600;
+}
